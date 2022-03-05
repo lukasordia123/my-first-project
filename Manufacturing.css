@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+}
+header .left {
+    margin-left: 10px;
+}
+header .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+header .navbar-expand-lg .navbar-nav  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+header  .pic img{
+   width: 880px; 
+}
+header .bottom  .a  {
+    width: 880px;
+    height: 50px;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+}
+header .bottom .a a {
+    text-decoration: none;
+    color: #414141;
+}
+header .nav-link {
+    color: #636363;
+}
+
+header .bottom nav ul li a{
+    font-size: 29px;
+
+}
+header .footer {
+    display: flex;
+    justify-content: center;
+}
+header .bottom nav {
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 90%;
+    height: 100%;
+}
+main .paragraph {
+    width: 50%;
+    height: 100%;
+    margin-left: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main .paragraph .text1 {
+    width: 170%;
+    height: 100%;
+    margin-top: 200px;
+}
+main .paragraph .text1 p {
+    font-size: 16px;
+    font-weight: 200;
+}
+main .paragraph .text1 h2 {
+    font-size: 29px;
+    font-weight: 300;
+}
+main .pic .photo1 {
+    width: 650px;
+    height: 433px;
+    margin-top: 20px;
+    background-image: url("./21b326_ab2a8358d70c4fe4839bf661f8f241cf_mv2_d_8660_5773_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo2 {
+    width: 650px;
+    height: 975px;
+    margin-top: 20px;
+    background-image: url("./21b326_069c954313344242a5bb47eb8e941ccb_mv2_d_3346_5019_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo3 {
+    width: 650px;
+    height: 381px;
+    margin-top: 20px;
+    background-image: url("./21b326_3fc12d2a65b7415b8fd439693f6a97b2_mv2_d_3557_2084_s_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo4 {
+    width: 650px;
+    height: 650px;
+    margin-top: 20px;
+    background-image: url("./21b326_4367d433974440088fb267ae3aee08a3_mv2_d_4676_4679_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo5 {
+    width: 650px;
+    height: 487px;
+    margin-top: 20px;
+    background-image: url("./21b326_0b31907c879548038f41734186edcb26_mv2_d_4733_3546_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo6 {
+    width: 650px;
+    height: 865px;
+    margin-top: 20px;
+    background-image: url("./21b326_af7a643122b74f4192307be63fe302c6_mv2_d_3072_4088_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo7 {
+    width: 650px;
+    height: 865px;
+    margin-top: 20px;
+    background-image: url("./21b326_62a17050549f4b488c1fc7ab34a831e1_mv2_d_3072_4088_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo1:hover {
+    color: #414141;
+}
+/* main .paragraph {
+    width: 45%;
+    height: 174px;
+}
+main .paragraph .text1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+main .paragraph .text1 p {
+    font-size: 15px;
+    font-weight:  200;
+}
+main .paragraph .text1 h2 {
+    font-size: 29px;
+    font-weight: 400;
+} */
+header .right {
+    position: fixed;
+    right: 40px;
+    top: 50px;
+}
+footer .border {
+    position: absolute;
+    left: 190px;
+    width: 73%;
+    height: 1px;
+    border-top : 1px solid #dee2e6 !important;
+}
+footer .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .text div {
+    display: flex;
+    justify-content: center;
+}
+footer .text div p {
+    font-size: 14px;
+}
+footer .text .logo nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer .text .logo nav ul li a {
+    padding: 0px 20px;
+    text-decoration: none;
+}

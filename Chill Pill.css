@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+}
+header .left {
+    margin-left: 10px;
+}
+header .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+header .navbar-expand-lg .navbar-nav  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+header  .pic img{
+   width: 880px; 
+}
+header .bottom  .a  {
+    width: 880px;
+    height: 50px;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+}
+header .bottom .a a {
+    text-decoration: none;
+    color: #414141;
+}
+header .nav-link {
+    color: #636363;
+}
+
+header .bottom nav ul li a{
+    font-size: 29px;
+
+}
+header .footer {
+    display: flex;
+    justify-content: center;
+}
+header .bottom nav {
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 90%;
+    height: 100%;
+}
+main .paragraph {
+    width: 50%;
+    height: 100%;
+    margin-left: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main .paragraph .text1 {
+    width: 170%;
+    height: 100%;
+    margin-top: 200px;
+}
+main .paragraph .text1 p {
+    font-size: 16px;
+    font-weight: 200;
+}
+main .paragraph .text1 h2 {
+    font-size: 29px;
+    font-weight: 300;
+}
+main .pic .photo1  {
+    width: 650px;
+    height: 975px;
+    margin-top: 20px;
+    background-image: url("https://static.wixstatic.com/media/21b326_5bbae56596b146118459d4aeb11901ad~mv2_d_3231_4846_s_4_2.jpg/v1/fit/w_1356,h_264,q_90/21b326_5bbae56596b146118459d4aeb11901ad~mv2_d_3231_4846_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo2 {
+    width: 650px;
+    height: 856px;
+    margin-top: 20px;
+    background-image: url("https://static.wixstatic.com/media/21b326_88843db97bd14c0b9565693bb14fca75~mv2_d_3570_4699_s_4_2.jpg/v1/fit/w_1356,h_264,q_90/21b326_88843db97bd14c0b9565693bb14fca75~mv2_d_3570_4699_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo3 {
+    width: 650px;
+    height: 436px;
+    margin-top: 20px;
+    background-image: url("https://static.wixstatic.com/media/21b326_88f30f510a0542f8addef714c01b0a46~mv2_d_4998_3356_s_4_2.jpg/v1/fit/w_1356,h_264,q_90/21b326_88f30f510a0542f8addef714c01b0a46~mv2_d_4998_3356_s_4_2.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo4 {
+    width: 650px;
+    height: 921px;
+    margin-top: 20px;
+    background-image: url("https://static.wixstatic.com/media/21b326_133234ae00fb4248a76c49872d1af31f~mv2_d_3440_4873_s_4_2.jpg/v1/fit/w_1356,h_264,q_90/21b326_133234ae00fb4248a76c49872d1af31f~mv2_d_3440_4873_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .pic .photo5 {
+    width: 650px;
+    height: 910px;
+    margin-top: 20px;
+    background-image: url("https://static.wixstatic.com/media/21b326_d29c3dc32ab742b0974a4f54ed0ec270~mv2_d_3462_4846_s_4_2.jpg/v1/fit/w_1356,h_264,q_90/21b326_d29c3dc32ab742b0974a4f54ed0ec270~mv2_d_3462_4846_s_4_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main .paragraph {
+    width: 45%;
+    height: 174px;
+}
+main .paragraph .text1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+main .paragraph .text1 p {
+    font-size: 15px;
+    font-weight:  200;
+}
+main .paragraph .text1 h2 {
+    font-size: 29px;
+    font-weight: 400;
+} */
+header .right {
+    position: fixed;
+    right: 40px;
+    top: 50px;
+}
+footer .border {
+    position: absolute;
+    left: 190px;
+    width: 73%;
+    height: 1px;
+    border-top : 1px solid #dee2e6 !important;
+}
+footer .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .text div {
+    display: flex;
+    justify-content: center;
+}
+footer .text div p {
+    font-size: 14px;
+}
+footer .text .logo nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer .text .logo nav ul li a {
+    padding: 0px 20px;
+    text-decoration: none;
+}

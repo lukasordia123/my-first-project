@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+}
+header .left {
+    margin-left: 10px;
+}
+header .container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+header .navbar-expand-lg .navbar-nav  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+header  .pic img{
+   width: 880px; 
+}
+header .bottom  .a  {
+    width: 880px;
+    height: 50px;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+}
+header .bottom .a a {
+    text-decoration: none;
+    color: #414141;
+}
+header .nav-link {
+    color: #636363;
+}
+
+header .bottom nav ul li a{
+    font-size: 29px;
+
+}
+header .footer {
+    display: flex;
+    justify-content: center;
+}
+header .bottom nav {
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+}
+main .pic img {
+    width: 934px;
+    height: 871px;
+    margin-right: 10px;
+}
+main .a {
+    width: 203%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+main .a a{
+    font-size: 29px;
+    text-decoration: none ;
+    color: #414141 ;
+}
+main .paragraph {
+    width: 45%;
+    height: 174px;
+}
+main .paragraph .text1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+main .paragraph .text1 p {
+    font-size: 15px;
+    font-weight:  200;
+}
+main .paragraph .text1 h2 {
+    font-size: 29px;
+    font-weight: 400;
+}
+header .right {
+    position: fixed;
+    right: 40px;
+    top: 50px;
+}
+footer .border {
+    position: absolute;
+    left: 190px;
+    width: 73%;
+    height: 1px;
+    border-top : 1px solid #dee2e6 !important;
+}
+footer .text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .text div {
+    display: flex;
+    justify-content: center;
+}
+
+footer .text div p {
+    font-size: 14px;
+}
+footer .text .logo nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer .text .logo nav ul li a {
+    padding: 0px 20px;
+    text-decoration: none;
+}

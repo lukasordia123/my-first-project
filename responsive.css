@@ -1,0 +1,34 @@
+/* @media screen and (max-width: 1300px) {
+    header .left .navbar-toggler  {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    header .pic img {
+        width: 100px;
+        height: 1000px ;
+        margin: 1000px 10px;
+    }
+} */
+@media screen  and (max-width:1000px) {
+    header .container-fluid {
+        display: flex !important;
+        flex-wrap: inherit !important;
+        align-items: flex-end !important;
+        justify-content: end !important;
+    }
+    header .container-fluid .navbar-toggler {
+        position: relative;
+        top: 30px;
+        left: 500px;  
+      }
+    header .navbar-expand-lg .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .left .flex {
+        position:relative;
+        top: 100px;
+        left: 100px;
+    }
+}
