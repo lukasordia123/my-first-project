@@ -17,12 +17,12 @@
         align-items: flex-end !important;
         justify-content: end !important;
     }
-    /* header .container-fluid .navbar-toggler {
+    header .container-fluid .navbar-toggler {
         position: relative;
         top: -80px;
         left: 1460px;
         font-size: 40px;
-      } */
+      }
     header .navbar-expand-lg .navbar-nav{
         display: flex;
         justify-content: space-between;
