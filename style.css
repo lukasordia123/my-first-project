@@ -25,11 +25,6 @@ header .navbar-expand-lg .navbar-nav  {
     flex-direction: column;
     margin-top: 40px;
 }
-main .pic div {
-    width: 900px;
-    height:871px;
-    background-image: url("./21b326_4367d433974440088fb267ae3aee08a3_mv2_d_4676_4679_s_4_2.webp");
-}
 header .bottom  .a  {
     width: 880px;
     height: 50px;
@@ -96,6 +91,11 @@ main .paragraph .text1 p {
 main .paragraph .text1 h2 {
     font-size: 29px;
     font-weight: 400;
+}
+main .pic div {
+    width: 900px;
+    height:871px;
+    background-image: url("./21b326_4367d433974440088fb267ae3aee08a3_mv2_d_4676_4679_s_4_2.webp");
 }
 header .right {
     position: fixed;
