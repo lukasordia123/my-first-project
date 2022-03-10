@@ -61,10 +61,9 @@ main {
     display:flex;
     justify-content: center;
 }
-main .pic  {
-    width: 907px;
-    height: 600px;
-    background-image: url("./21b326_4367d433974440088fb267ae3aee08a3_mv2_d_4676_4679_s_4_2.webp");
+main .pic div img {
+    width: 934px;
+    height: 871px ;
 }
 main .a {
     width: 203%;

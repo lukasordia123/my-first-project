@@ -32,7 +32,7 @@
         left: 1400px;
         font-size: 40px;
     }
-    header .pic img {
+    header .pic  {
         width: 906px;
         height: 871px;
         position: relative;
