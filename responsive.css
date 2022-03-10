@@ -19,8 +19,9 @@
     }
     header .container-fluid .navbar-toggler {
         position: relative;
-        top: 30px;
-        left: 500px;  
+        top: -70px;
+        left: 1460px;
+        font-size: 40px;
       }
     header .navbar-expand-lg .navbar-nav{
         display: flex;
@@ -31,13 +32,5 @@
         top: -20px;
         left: 1400px;
         font-size: 40px;
-    }
-    header .pic  {
-        width: 906px;
-        height: 871px;
-        position: relative;
-        top: 300px;
-        left: 600px;
-
     }
 }
