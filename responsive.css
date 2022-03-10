@@ -41,7 +41,10 @@
 }
 @media screen  and (max-width:1000px) {
     main .pic .photo {
-        width: 100%;
+        width: 90%;
         height: 100%;
+        background-image: url("./21b326_4367d433974440088fb267ae3aee08a3_mv2_d_4676_4679_s_4_2.webp");
+        display: flex;
+        justify-content: center;
     }
 }
