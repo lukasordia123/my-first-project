@@ -101,30 +101,23 @@ header .right {
     right: 40px;
     top: 50px;
 }
-footer .border {
-    position: absolute;
-    left: 190px;
-    width: 73%;
-    height: 1px;
-    border-top : 1px solid #dee2e6 !important;
-}
-footer .text {
+footer {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-footer .text div {
+    grid-template-columns: 1fr;
+  }
+  footer .top ul {
     display: flex;
     justify-content: center;
-}
-
-footer .text div p {
-    font-size: 14px;
-}
-footer .text .logo nav ul {
-    display: flex;
-    justify-content: center;
-}
-footer .text .logo nav ul li a {
-    padding: 0px 20px;
-    text-decoration: none;
-}
+    gap: 20px;
+    list-style: none;
+  }
+  footer .top ul li a {
+    color: black;
+  }
+  footer .bottom p {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin: 0px 0px 30px;
+  }
