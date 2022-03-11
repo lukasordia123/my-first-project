@@ -1,0 +1,143 @@
+@media screen and (max-width:993px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 815px;
+    }
+    main .paragraph {
+        margin-left: 160px;
+    }
+    main .contact .input-group {
+        left: 250px;
+    }
+}
+@media screen and (max-width:926px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 800px;
+    }
+    
+}
+@media screen and (max-width:895px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 810px;
+    }
+    main .paragraph {
+        margin-left: 180px;
+    }
+}
+@media screen and (max-width:840px ) {
+    main .paragraph {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:810px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 745px;
+    }
+    main .paragraph {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:750px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 740px;
+    }
+}
+@media screen and (max-width:690px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 745px;
+    }
+    main .center ul li a{
+        padding: 25px;
+    }
+}
+@media screen and (max-width:670px) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 745px;
+    }
+    main .paragraph {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 625px) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 745px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 745px;
+    }
+    main .paragraph {
+        position: relative;
+        left: 100px;
+    }
+    main .paragraph .text1 {
+        width: 100%;
+}
+}
+@media screen and (max-width:470px){
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 800px;
+    }
+}
+
+    @media screen and (max-width:400px){
+        header .navbar-toggler {
+            position: relative;
+            top: 10px;
+            left: 710px;
+        }
+        main .paragraph {
+            margin-left: 200px;
+        }
+    }
+@media screen and (max-width:800px) {
+    footer {
+        margin: 10px 10px;
+    }
+}
+@media screen and (max-width:700px) {
+    footer {
+        margin: 10px 45px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    footer {
+        margin: 10px 75px;
+    }
+}
+@media screen and (max-width:670px) {
+    footer {
+        margin: 10px px;
+    }
+}
+@media screen and (max-width:400px) {
+    footer {
+        margin:10px 145px;
+    }
+}
+@media screen and (max-width:576px) {
+    main .paragraph .a {
+        width: 100%;
+    }
+}

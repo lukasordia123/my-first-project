@@ -1,0 +1,137 @@
+@media screen and (max-width:993px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 815px;
+    }
+    main .paragraph {
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:926px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 800px;
+    }
+    
+}
+@media screen and (max-width:895px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 720px;
+    }
+    main .paragraph {
+        margin-left: 180px;
+    }
+}
+@media screen and (max-width:840px ) {
+    main .paragraph {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:810px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 650px;
+    }
+    main .paragraph {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:750px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 603px;
+    }
+}
+@media screen and (max-width:690px ) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 610px;
+    }
+    
+}
+@media screen and (max-width:670px) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 905px;
+    }
+    main .paragraph {
+        margin-left: 340px;
+    }
+}
+@media screen and (max-width: 625px) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 861px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 812px;
+    }
+    main .paragraph {
+        margin-left: 290px;
+    }
+    main .paragraph .text1 {
+        width: 100%;
+}
+}
+@media screen and (max-width:470px){
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 800px;
+    }
+}
+
+    @media screen and (max-width:400px){
+        header .navbar-toggler {
+            position: relative;
+            top: 10px;
+            left: 710px;
+        }
+        main .paragraph {
+            margin-left: 200px;
+        }
+    }
+@media screen and (max-width:800px) {
+    footer {
+        margin: 10px 10px;
+    }
+}
+@media screen and (max-width:700px) {
+    footer {
+        margin: 10px 45px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    footer {
+        margin: 10px 75px;
+    }
+}
+@media screen and (max-width:670px) {
+    footer {
+        margin: 10px px;
+    }
+}
+@media screen and (max-width:400px) {
+    footer {
+        margin:10px 145px;
+    }
+}
+@media screen and (max-width:576px) {
+    main .paragraph .a {
+        width: 100%;
+    }
+}

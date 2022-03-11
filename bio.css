@@ -18,12 +18,14 @@ header .container-fluid {
     flex-direction: column;
     margin-top: 10px;
 }
-
 header .navbar-expand-lg .navbar-nav  {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 40px;
+}
+header  .pic img{
+   width: 880px; 
 }
 header .bottom  .a  {
     width: 880px;
@@ -53,27 +55,104 @@ header .bottom nav {
     justify-content: center;
 }
 main {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    display:flex;
-    justify-content: center;
-}
-main .pic div img {
-    width: 934px;
-    height: 871px ;
-}
-main .a {
-    width: 203%;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-main .a a{
-    font-size: 29px;
-    text-decoration: none ;
-    color: #414141 ;
 }
 main .paragraph {
+    width: 50%;
+    height: 100%;
+    margin-left: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+}
+main .paragraph .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10px;
+}
+main .paragraph .text {
+    width: 200%;
+    height: 5%;
+    margin-top: 100px;
+}
+main .paragraph .text p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 1px 1px;
+}
+main .paragraph .text h2 {
+    font-size: 29px;
+    font-weight: 300;   
+}
+main .paragraph .a p {
+    font-size: 15px;
+    font-weight: 100;
+}
+main .paragraph .pic .photo {
+    width: 500px;
+    height: 180px;
+}
+main .paragraph .pic .photo h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+main .paragraph .pic .photo1 {
+    width: 308px;
+    height: 420px;
+    margin-top: 360px;
+}
+main .paragraph .pic .photo1 p {
+    font-size: 15px;
+    font-weight: 100;
+}
+main .paragraph .a {
+    width: 190%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+main .paragraph .a h1 {
+    font-size: 22px;
+    font-weight: 200;
+    color: #414141;
+
+}
+main .contact .input-group {
+    position: relative;
+    left: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 50% ;
+    margin-top: 10px;
+}
+main .input-group input:hover {
+    border: 2px solid #636363;
+}
+main .center div {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+main .center div p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #636363;
+}
+main .center ul li a {
+    padding: 0px 70px;
+    color: #636363;
+}
+main .center ul li {
+    height: 130px;
+}
+/* main .paragraph {
     width: 45%;
     height: 174px;
 }
@@ -91,12 +170,7 @@ main .paragraph .text1 p {
 main .paragraph .text1 h2 {
     font-size: 29px;
     font-weight: 400;
-}
-main .pic .photo div {
-    width:900px ;
-    height:871px;
-    background-image: url("./21b326_4367d433974440088fb267ae3aee08a3_mv2_d_4676_4679_s_4_2.webp");
-}
+} */
 header .right {
     position: fixed;
     right: 40px;
