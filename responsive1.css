@@ -111,23 +111,33 @@
 }
 @media screen and (max-width:700px) {
     footer {
-        margin: 10px 45px;
+        margin: 40px 210px ;
     }
 }
 
 @media screen and (max-width:650px) {
     footer {
-        margin: 10px 75px;
-    }
+        margin:40px 220px;
+        }
 }
 @media screen and (max-width:670px) {
     footer {
         margin: 10px px;
     }
 }
+@media screen and (max-width:640px) {
+    footer {
+        margin: 40px 240px;
+    }
+}
+@media screen and (max-width:440px) {
+    footer {
+        margin: 40px 250px;
+    }
+}
 @media screen and (max-width:400px) {
     footer {
-        margin:10px 145px;
+        margin:40px 235px;
     }
 }
 @media screen and (max-width:576px) {

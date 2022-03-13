@@ -302,7 +302,7 @@
 }
 @media screen and (max-width:700px) {
     footer {
-        margin: 10px 45px;
+        margin: 40px 210px ;
     }
 }
 
@@ -316,9 +316,14 @@
         margin: 10px 205px;
     }
 }
+@media screen and (max-width:440px) {
+    footer {
+        margin: 40px 250px;
+    }
+}
 @media screen and (max-width:400px) {
     footer {
-        margin:10px 195px;
+        margin:40px 170px;
     }
 }
 @media screen and (max-width:972px) {

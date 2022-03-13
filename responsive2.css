@@ -82,7 +82,7 @@
     header .navbar-toggler {
         position: relative;
         top: 10px;
-        left: 745px;
+        left: 1015px;
     }
     main .paragraph {
         position: relative;
@@ -91,6 +91,22 @@
     main .paragraph .text1 {
         width: 100%;
 }
+    main .center div {
+        width: 100%;
+    height: 134px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end
+    }
+}
+@media screen and (max-width: 500px) {
+    main .center div {
+     width: 140%;
+    height: 134px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end
+    }
 }
 @media screen and (max-width:470px){
     header .navbar-toggler {
@@ -103,13 +119,68 @@
     @media screen and (max-width:400px){
         header .navbar-toggler {
             position: relative;
-            top: 10px;
-            left: 710px;
+            top: -90px;
+            left: 1090px ;
         }
         main .paragraph {
             margin-left: 200px;
+            width: 250%;
+            height: 1119px
+        }
+        main .paragraph .text p {
+            font-size: 28px;
+            font-weight: 100;
+        }
+        main .paragraph .photo h2 {
+            font-size: 29px !important;
+        }
+        main .paragraph .pic .photo {
+            width: 130%;
+            height: 300px;
+        }
+        main .paragraph .a  p{
+            font-size: 25px;
+            font-weight: 100;
+        }
+        main .paragraph .pic .photo1 {
+            width: 450px;
+            height: 453px;
+            margin-top: 496px
+        }
+        main .paragraph .photo1 p {
+            font-size: 25px !important;
+            font-weight: 100 !important;
         }
     }
+    @media screen and (max-width:400px ) {
+        main .center ul li a{
+            padding: 25px;
+        }
+        main .center div {
+            width: 140%;
+            height: 134px;
+            margin-top: 275px;
+            display: flex;
+            justify-content: end;
+    }
+    main .center div p {
+        font-size: 27px;
+        font-weight: 100;
+    }
+    main .center ul {
+        width: 180% !important;
+    }    
+    main .center ul a {
+        font-size: 20px;
+    }
+    }
+    @media screen and (max-width: 576px) {
+        main .center .nav {
+            display: flex;
+            width: 120%;
+            justify-content: end !important;
+    }
+}
 @media screen and (max-width:800px) {
     footer {
         margin: 10px 10px;
@@ -117,13 +188,13 @@
 }
 @media screen and (max-width:700px) {
     footer {
-        margin: 10px 45px;
+        margin: 40px 210px ;
     }
 }
 
 @media screen and (max-width:650px) {
     footer {
-        margin: 10px 75px;
+        margin:40px 220px;
     }
 }
 @media screen and (max-width:670px) {
@@ -131,13 +202,28 @@
         margin: 10px px;
     }
 }
+@media screen and (max-width:640px) {
+    footer {
+        margin: 40px 240px;
+    }
+}
+@media screen and (max-width:440px) {
+    footer {
+        margin: 40px 250px;
+    }
+}
 @media screen and (max-width:400px) {
     footer {
-        margin:10px 145px;
+        margin:50px 410px; 
     }
 }
 @media screen and (max-width:576px) {
     main .paragraph .a {
         width: 100%;
+    }
+    main .center .nav {
+       display: flex;
+       width: 120%;
+       justify-content: end !important;
     }
 }
