@@ -35,7 +35,7 @@
     header .navbar-toggler {
         position: relative;
         top: 10px;
-        left: 650px;
+        left: 690px;
     }
     main .paragraph {
         margin-left: 100px;
@@ -48,11 +48,21 @@
         left: 603px;
     }
 }
+@media screen and (max-width:700px ) {
+    main .paragraph {
+        margin-left: 210px;
+    }
+    header .navbar-toggler {
+        position: relative;
+        top: 10px;
+        left: 700px;
+    }
+}
 @media screen and (max-width:690px ) {
     header .navbar-toggler {
         position: relative;
         top: 10px;
-        left: 610px;
+        left: 690px;
     }
     
 }
@@ -60,7 +70,7 @@
     header .navbar-toggler {
         position: relative;
         top: 10px;
-        left: 905px;
+        left: 790px;
     }
     main .paragraph {
         margin-left: 340px;
@@ -111,7 +121,7 @@
 }
 @media screen and (max-width:700px) {
     footer {
-        margin: 40px 210px ;
+        margin: 40px 115px ;
     }
 }
 
