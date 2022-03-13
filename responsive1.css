@@ -132,22 +132,22 @@
 }
 @media screen and (max-width:670px) {
     footer {
-        margin: 10px px;
+        margin: 10px 200px;
     }
 }
 @media screen and (max-width:640px) {
     footer {
-        margin: 40px 240px;
+        margin: 20px 240px;
     }
 }
 @media screen and (max-width:440px) {
     footer {
-        margin: 40px 250px;
+        margin: 20px 250px;
     }
 }
 @media screen and (max-width:400px) {
     footer {
-        margin:40px 235px;
+        margin:20px 235px;
     }
 }
 @media screen and (max-width:576px) {
